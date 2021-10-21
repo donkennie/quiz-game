@@ -148,11 +148,36 @@ namespace QuizieGame
                 Ques = "The largest planet is known as?",
                 Ans = "jupiter"
             };
+            ques[26] = new Question
+            {
+                Ques = "The largest Continent is known as?",
+                Ans = "asia"
+            };
+            ques[27] = new Question
+            {
+                Ques = "The Femimine of dog is what?",
+                Ans = "dog"
+            };
+            ques[28] = new Question
+            {
+                Ques = "Nigeria has how many local governments?",
+                Ans = "774"
+            };
+            ques[29] = new Question
+            {
+                Ques = "How many players play Tug Of War?",
+                Ans = "8 players"
+            };
+            ques[30] = new Question
+            {
+                Ques = "The biggest stadium in the world is?",
+                Ans = "maradona"
+            };
             try
             {
                 Console.WriteLine("\t\t\tWELCOME TO QUIZIE GAME!\nThis is a brain teaser game where you'll be jeered up and " +
                     "updated mentally and generally about the World's affrairs-Don't be an old fellow! We're here to challenge you with puzzle questions.");
-                Console.Write("\nPick and Enter a number from 1-20: ");
+                Console.Write("\nPick and Enter a number from 1-30: ");
                 int numberEntry = int.Parse(Console.ReadLine());
                 do
                 {
