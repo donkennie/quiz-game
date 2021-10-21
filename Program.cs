@@ -97,11 +97,36 @@ namespace QuizieGame
                 Ques = "African was partitioned in what year?",
                 Ans = "1885"
             };
+            ques[16] = new Question
+            {
+                Ques = "Covid-19 started in which Country?",
+                Ans = "china"
+            };
+            ques[17] = new Question
+            {
+                Ques = "The first animal on the moon is what?",
+                Ans = "laika"
+            };
+            ques[18] = new Question
+            {
+                Ques = "The baby of an Ostrich is called? ",
+                Ans = "chick"
+            };
+            ques[19] = new Question
+            {
+                Ques = "The capital of Afghanistan is called?",
+                Ans = "kabul"
+            };
+            ques[20] = new Question
+            {
+                Ques = "The Femimine of Emperor is called? ",
+                Ans = "empress"
+            };
             try
             {
                 Console.WriteLine("\t\t\tWELCOME TO QUIZIE GAME!\nThis is a brain teaser game where you'll be jeered up and " +
                     "updated mentally and generally about the World's affrairs-Don't be an old fellow! We're here to challenge you with puzzle questions.");
-                Console.Write("\nPick and Enter a number from 1-15: ");
+                Console.Write("\nPick and Enter a number from 1-20: ");
                 int numberEntry = int.Parse(Console.ReadLine());
                 do
                 {
