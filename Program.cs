@@ -72,12 +72,36 @@ namespace QuizieGame
                 Ques = "Fear of ghost is called?",
                 Ans = "phasmophobia"
             };
-
+            ques[11] = new Question
+            {
+                Ques = "The most populous city in the world is?",
+                Ans = "tokyo"
+            };
+            ques[12] = new Question
+            {
+                Ques = "A score is what?",
+                Ans = "20"
+            };
+            ques[13] = new Question
+            {
+                Ques = "The only country with no armed forces is known as",
+                Ans = "iceand"
+            };
+            ques[14] = new Question
+            {
+                Ques = "The capital of Rwanda is ?",
+                Ans = "kigali"
+            };
+            ques[15] = new Question
+            {
+                Ques = "African was partitioned in what year?",
+                Ans = "1885"
+            };
             try
             {
                 Console.WriteLine("\t\t\tWELCOME TO QUIZIE GAME!\nThis is a brain teaser game where you'll be jeered up and " +
                     "updated mentally and generally about the World's affrairs-Don't be an old fellow! We're here to challenge you with puzzle questions.");
-                Console.Write("\nPick and Enter a number from 1-10: ");
+                Console.Write("\nPick and Enter a number from 1-15: ");
                 int numberEntry = int.Parse(Console.ReadLine());
                 do
                 {
