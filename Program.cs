@@ -122,6 +122,32 @@ namespace QuizieGame
                 Ques = "The Femimine of Emperor is called? ",
                 Ans = "empress"
             };
+            ques[21] = new Question
+            {
+                Ques = "What's greater than God, more evil than the devil, the poor have it, the rich need it," +
+                "and if you eat it, you'll die?",
+                Ans = "nothing"
+            };
+            ques[22] = new Question
+            {
+                Ques = "The 7th most populated country is?",
+                Ans = "nigeria"
+            };
+            ques[23] = new Question
+            {
+                Ques = "What occurs once in every minute, twice in every moment, yet never in a thousand years?",
+                Ans = "m"
+            };
+            ques[24] = new Question
+            {
+                Ques = "The acronym for VOA is?",
+                Ans = "voice of america"
+            };
+            ques[25] = new Question
+            {
+                Ques = "The largest planet is known as?",
+                Ans = "jupiter"
+            };
             try
             {
                 Console.WriteLine("\t\t\tWELCOME TO QUIZIE GAME!\nThis is a brain teaser game where you'll be jeered up and " +
