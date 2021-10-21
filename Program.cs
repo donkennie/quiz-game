@@ -47,12 +47,37 @@ namespace QuizieGame
                 Ques = "The capital of italy is?",
                 Ans = "rome"
             };
-            
+            ques[6] = new Question
+            {
+                Ques = "How many countries participated in the first world cup tournament?",
+                Ans = "13"
+            };
+            ques[7] = new Question
+            {
+                Ques = "Someone who sleep walks is known as?",
+                Ans = "somnabulist"
+            };
+            ques[8] = new Question
+            {
+                Ques = "What can travel around the world which stay in a corner?",
+                Ans = "a stamp"
+            };
+            ques[9] = new Question
+            {
+                Ques = "What flies without wings?",
+                Ans = "time"
+            };
+            ques[10] = new Question
+            {
+                Ques = "Fear of ghost is called?",
+                Ans = "phasmophobia"
+            };
+
             try
             {
                 Console.WriteLine("\t\t\tWELCOME TO QUIZIE GAME!\nThis is a brain teaser game where you'll be jeered up and " +
                     "updated mentally and generally about the World's affrairs-Don't be an old fellow! We're here to challenge you with puzzle questions.");
-                Console.Write("\nPick and Enter a number from 1-5: ");
+                Console.Write("\nPick and Enter a number from 1-10: ");
                 int numberEntry = int.Parse(Console.ReadLine());
                 do
                 {
